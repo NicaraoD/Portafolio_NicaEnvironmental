@@ -25,7 +25,7 @@ export default function Header() {
         </div>
       </div>
       <div className='container2'>
-        <p className='text2'>No me di cuenta que habia sido rodeado, porque todos estaban enfrente. </p>
+        <p className='text2'>The solution for your environmental problems</p>
       </div>
       <div className='nic_com'>
 

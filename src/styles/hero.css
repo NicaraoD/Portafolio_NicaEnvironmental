@@ -1,0 +1,67 @@
+.hero_container {
+    height: auto;
+    background-color: #020d24;
+
+}
+
+
+
+/* Contenedor adicional */
+.hero_wrapper {
+    padding: 1rem;
+    text-wrap: balance;
+}
+
+.p_1 {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+
+}
+
+.hero_paragraph_1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: start;
+
+    width:fit-content;margin-left: 2rem;
+
+
+}
+.hero_text_p{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.hero_text_p h1{
+
+    width: 100%;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.p_1 img {
+    width: 400px;
+ 
+
+}
+
+
+/* Bloque de texto */
+
+
+/* Párrafos generales */
+.hero_paragraph {}
+
+/* Párrafo 1 */
+.hero_paragraph_1 {}
+
+/* Párrafo 2 */
+.hero_paragraph_2 {}
+
+/* Párrafo 3 */
+.hero_paragraph_3 {}
