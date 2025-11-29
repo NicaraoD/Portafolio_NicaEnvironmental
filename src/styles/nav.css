@@ -1,11 +1,12 @@
 .nav_com {
-    background-color: #ffffffa2;
+    background-color: #ffffff;
     padding: 1.2rem 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
- 
+    position: sticky;
+    top: 0;
     border: 1px solid #00000000;
     animation:  0.8s ease-out all;
 

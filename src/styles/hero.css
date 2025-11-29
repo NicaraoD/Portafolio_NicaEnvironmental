@@ -8,35 +8,33 @@
 
 /* Contenedor adicional */
 .hero_wrapper {
-    padding: 1rem;
+
     text-wrap: balance;
+    height: auto;
 }
 
-.p_1 {
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    width: 100%;
 
-}
 
 .hero_paragraph_1 {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     color: #fff;
     text-align: start;
 
-    width:fit-content;margin-left: 2rem;
+    width: fit-content;
+    margin-left: 2rem;
 
 
 }
-.hero_text_p{
+
+.hero_text_p {
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: end;
 }
-.hero_text_p h1{
+
+.hero_text_p h1 {
 
     width: 100%;
     color: #fff;
@@ -44,10 +42,48 @@
     text-align: center;
 }
 
-.p_1 img {
-    width: 400px;
- 
+.hero_text_block {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
 
+.p_1 {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    width: 100%;
+}
+
+.p_1_com {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 3rem;
+    width: 100%;
+}
+
+.image_container_p1 {
+    background-image: url('../../public/nicarao.jpg');
+    background-size: cover;
+    flex: 1;
+    background-position-y: -150px;
+    height: 600px;
+
+}
+
+.image_container_p2 {
+    background-image: url('../../public/nicarao2.jpg');
+    background-size: cover;
+    flex: 1;
+    background-position-y: -450px;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    height: 600px;
+}
+
+.hero_text_p {
+    flex: 1;
 }
 
 
