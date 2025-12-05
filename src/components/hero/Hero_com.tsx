@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import '../../styles/hero/hero_com.css'
 
 export default function Hero_com({
@@ -7,15 +6,14 @@ export default function Hero_com({
     p2,
     p3,
     isTrue,
-    isImage
+    img
 
 }: any) {
 
     return (
         <div className={isTrue ? 'p_1' : 'p_1_com'}>
-            <div 
-            className={isTrue ? "image_container_p1"  : 'image_container_p2'}
-            >
+            <div className={'image_container_p2'} >
+                <img src={img} alt="" className='hero_image' />
             </div>
             <div className='hero_text_p'>
                 <h1>{title}</h1>

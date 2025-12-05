@@ -1,16 +1,20 @@
 .hero_container {
     height: auto;
-    background-color: #020d24;
-
+    background-color: #020d249d;
+    border: 1px solid #ffffff13;
+    padding: 1rem;
 }
 
 
 
 /* Contenedor adicional */
 .hero_wrapper {
-
     text-wrap: balance;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
@@ -18,72 +22,78 @@
 .hero_paragraph_1 {
     font-size: 2.0rem;
     color: #fff;
-    text-align: start;
-
-    width: fit-content;
-    margin-left: 2rem;
-
-
+    
 }
-
 .hero_text_p {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
+    padding: 0rem 0.5rem;
 }
+
+
 
 .hero_text_p h1 {
 
     width: 100%;
     color: #fff;
     font-size: 3rem;
-    text-align: center;
+
+    
 }
 
 .hero_text_block {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
 }
 
 .p_1 {
     display: flex;
+    gap: 2rem;
     justify-content: center;
-    gap: 5rem;
+    align-items: center;
     width: 100%;
+  
 }
 
 .p_1_com {
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    align-items: center;
     flex-direction: row-reverse;
-    gap: 3rem;
+    gap: 2rem;
     width: 100%;
+
 }
 
 .image_container_p1 {
-    background-image: url('../../public/nicarao.jpg');
-    background-size: cover;
     flex: 1;
-    background-position-y: -150px;
     height: 600px;
 
 }
 
 .image_container_p2 {
-    background-image: url('../../public/nicarao2.jpg');
     background-size: cover;
     flex: 1;
-    background-position-y: -450px;
-    background-repeat: no-repeat;
     border-radius: 0.5rem;
     height: 600px;
 }
 
+.hero_image {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 10%;
+    background-repeat: no-repeat;
+    object-fit:cover;
+    object-position: center top; 
+
+}
+
 .hero_text_p {
     flex: 1;
+   
 }
 
 
@@ -91,13 +101,25 @@
 
 
 /* Párrafos generales */
-.hero_paragraph {}
+.hero_paragraph {
+    width: 100%;
+    /* text-wrap: balance;
+    text-align: justify; */
+  
+
+}
 
 /* Párrafo 1 */
-.hero_paragraph_1 {}
+.hero_paragraph_1 {
+    /* padding-left: 1rem;
+    padding-right: 1rem;
+    width: 76%; */
+}
 
 /* Párrafo 2 */
-.hero_paragraph_2 {}
+.hero_paragraph_2 {
+
+}
 
 /* Párrafo 3 */
 .hero_paragraph_3 {}
